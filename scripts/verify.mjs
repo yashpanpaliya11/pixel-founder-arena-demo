@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { founders, createBrowserDemo, classifyError } from 'pixel-founder-arena/browser';
+import { founders, createBrowserDemo, classifyError } from 'founder-fightclub/browser';
 assert.equal(founders.length, 35);
 assert.equal(classifyError('SyntaxError: Unexpected token )').category, 'syntax');
 const engine = createBrowserDemo();
@@ -9,6 +9,6 @@ await engine.request('demo', { category: 'reference' });
 assert.equal(engine.snapshot().events.at(-1).error.category, 'reference');
 await engine.request('debate', { topic: 'Marketing' });
 assert.ok(engine.snapshot().events.at(-1).debate.lines.every(l => l.roast && l.targetId !== l.founderId));
-const metadata = JSON.parse(await readFile('node_modules/pixel-founder-arena/package.json', 'utf8'));
-assert.equal(metadata.name, 'pixel-founder-arena'); assert.equal(metadata.version, '1.3.0');
+const metadata = JSON.parse(await readFile('node_modules/founder-fightclub/package.json', 'utf8'));
+assert.equal(metadata.name, 'founder-fightclub'); assert.equal(metadata.version, '1.0.0');
 console.log('Installed dependency verified: 35 characters, real classifier, Hinglish sample reactions, and targeted debate roasts.');

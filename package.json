@@ -1,16 +1,16 @@
 {
-  "name": "pixel-founder-arena-demo",
+  "name": "founder-fightclub-demo",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Public interactive demo that installs and uses the pixel-founder-arena npm package.",
+  "description": "Public interactive demo that installs and uses the founder-fightclub npm package.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "npm run build && node scripts/serve.mjs",
     "test": "node scripts/verify.mjs"
   },
   "dependencies": {
-    "pixel-founder-arena": "file:vendor/pixel-founder-arena-1.3.0.tgz"
+    "founder-fightclub": "file:vendor/founder-fightclub-1.0.0.tgz"
   },
   "engines": {
     "node": ">=22"

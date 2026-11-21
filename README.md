@@ -1,6 +1,6 @@
-# Founder Arena — Demo Project
+# Founder Fightclub — Demo Project
 
-An independently installable demo project that **installs and uses** the [`pixel-founder-arena`](https://github.com/yashpanpaliya11/pixel-founder-arena) npm package.
+An independently installable demo project that **installs and uses** the [`founder-fightclub`](https://github.com/yashpanpaliya11/pixel-founder-arena) npm package.
 
 ## Live demo
 
@@ -12,7 +12,7 @@ Node.js 22 or newer:
 
 ```sh
 git clone https://github.com/yashpanpaliya11/pixel-founder-arena-demo.git
-cd pixel-founder-arena-demo
+cd founder-fightclub-demo
 npm ci
 npm run dev
 ```
@@ -21,7 +21,7 @@ Open the URL printed in your terminal (default `http://127.0.0.1:4320`).
 
 ## Where the npm package is used
 
-`package.json` declares `pixel-founder-arena` as a real npm dependency. `npm ci` installs the pinned npm tarball in `vendor/`; this is the same packaged release distributed by the package repository. This works without private credentials or a sibling checkout. It is an npm package artifact installation, **not a claim that the package is already on the npm registry**.
+`package.json` declares `founder-fightclub` version `1.0.0` as an npm dependency. Until the first registry publish clears account 2FA, `npm ci` installs the pinned package artifact in `vendor/`. This is the real packaged library, not a duplicate implementation. Registry publication is still pending account verification.
 
 `scripts/verify.mjs` imports and tests the installed package directly:
 
@@ -30,7 +30,7 @@ import {
   createBrowserDemo,
   founders,
   classifyError
-} from 'pixel-founder-arena/browser';
+} from 'founder-fightclub/browser';
 ```
 
 `scripts/build.mjs` resolves the installed package, copies its UI and browser-safe modules into `dist/`, and creates this entrypoint:
