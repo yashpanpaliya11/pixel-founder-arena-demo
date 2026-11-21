@@ -10,7 +10,7 @@
     "test": "node scripts/verify.mjs"
   },
   "dependencies": {
-    "founder-fightclub": "file:vendor/founder-fightclub-1.0.0.tgz"
+    "founder-fightclub": "1.0.0"
   },
   "engines": {
     "node": ">=22"

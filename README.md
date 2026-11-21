@@ -21,7 +21,7 @@ Open the URL printed in your terminal (default `http://127.0.0.1:4320`).
 
 ## Where the npm package is used
 
-`package.json` declares `founder-fightclub` version `1.0.0` as an npm dependency. Until the first registry publish clears account 2FA, `npm ci` installs the pinned package artifact in `vendor/`. This is the real packaged library, not a duplicate implementation. Registry publication is still pending account verification.
+`package.json` declares `founder-fightclub` version `1.0.0` as a real npm registry dependency. `npm ci` downloads the published package directly from npm; no vendored tarball, private credentials, or sibling checkout is needed.
 
 `scripts/verify.mjs` imports and tests the installed package directly:
 
