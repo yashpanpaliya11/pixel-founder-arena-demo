@@ -4,7 +4,7 @@ An independently installable demo project that **installs and uses** the [`pixel
 
 ## Live demo
 
-The verified deployment URL will be added here after publication.
+[Open the public interactive demo](https://pixel-founder-arena-demo.vercel.app/) — no sign-in required.
 
 ## Run locally
 
