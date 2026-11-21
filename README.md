@@ -50,7 +50,7 @@ The roster, dialogue, roast selection, error classification, hints, task logic, 
 2. Expand **Explain this error + progressive hints** for the English explanation and progressive hints.
 3. In **Settings**, change the roast language to Hinglish and try another error. Other interface text stays English.
 4. Click **Let them argue** to see fictional founders roast each other about MRR, marketing, competitors, product, bootstrapping, or AI.
-5. Select two to five characters from the 25-character roster.
+5. Select two to five characters from the 35-character roster, or click **Indian cast** for Anupam Mittal, Peyush Bansal, Aadit Palicha, Kaivalya Vohra, and Aman Gupta.
 6. Add a project brief to personalize the debate prompts.
 7. Add and complete a task to earn XP. Preferences and tasks persist in your browser.
 
