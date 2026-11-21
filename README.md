@@ -8,7 +8,7 @@ An independently installable demo project that **installs and uses** the [`found
 
 ## Use inside VS Code / Cursor
 
-[Download the IDE extension](https://github.com/yashpanpaliya11/pixel-founder-arena/releases/download/ide-v0.1.0/founder-fightclub-0.1.0.vsix), install it through **Extensions → … → Install from VSIX…**, then run **Founder Fightclub: Open Companions** from the Command Palette. Founders walk in the bottom panel and react to real editor errors. The live website is a browser preview; it cannot add companions to your IDE.
+[Download the IDE extension](https://github.com/yashpanpaliya11/pixel-founder-arena/releases/download/ide-v0.2.0/founder-fightclub-0.2.0.vsix), install it through **Extensions → … → Install from VSIX…**, then run **Founder Fightclub: Open Companions** from the Command Palette. Founders walk in the bottom panel and react to real editor errors. The live website is a browser preview; it cannot add companions to your IDE.
 
 [Full IDE installation guide](https://github.com/yashpanpaliya11/pixel-founder-arena/tree/main/extensions/vscode).
 
